@@ -1,0 +1,1790 @@
+2018-10-30 15:57:25 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: CountryData)
+2018-10-30 15:57:25 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.7.0, Python 3.7.0 (default, Jun 28 2018, 08:04:48) [MSC v.1912 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2p  14 Aug 2018), cryptography 2.3.1, Platform Windows-7-6.1.7601-SP1
+2018-10-30 15:57:25 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'CountryData', 'FEED_FORMAT': 'json', 'FEED_URI': 'data.json', 'LOG_FILE': 'Spider.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'CountryData.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['CountryData.spiders']}
+2018-10-30 15:57:25 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2018-10-30 15:57:26 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-10-30 15:57:26 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-10-30 15:57:26 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-10-30 15:57:26 [scrapy.core.engine] INFO: Spider opened
+2018-10-30 15:57:26 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-10-30 15:57:36 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2018-10-30 15:57:36 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2018-10-30 15:57:36 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
+2018-10-30 15:57:36 [scrapy.core.downloader.handlers.http11] WARNING: Got data loss in http://www.offcn.com/xingce/2015/1203/4136.html. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2018-10-30 16:02:37 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: CountryData)
+2018-10-30 16:02:37 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.7.0, Python 3.7.0 (default, Jun 28 2018, 08:04:48) [MSC v.1912 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2p  14 Aug 2018), cryptography 2.3.1, Platform Windows-7-6.1.7601-SP1
+2018-10-30 16:02:37 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'CountryData', 'FEED_FORMAT': 'json', 'FEED_URI': 'data.json', 'LOG_FILE': 'Spider.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'CountryData.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['CountryData.spiders']}
+2018-10-30 16:02:37 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2018-10-30 16:02:38 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-10-30 16:02:38 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-10-30 16:02:38 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-10-30 16:02:38 [scrapy.core.engine] INFO: Spider opened
+2018-10-30 16:02:38 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-10-30 16:02:38 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1022/10383.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 31, in s_parse
+    item['title'] = title.text
+AttributeError: 'str' object has no attribute 'text'
+2018-10-30 16:02:38 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1019/10379.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 31, in s_parse
+    item['title'] = title.text
+AttributeError: 'str' object has no attribute 'text'
+2018-10-30 16:02:38 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1023/10388.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 31, in s_parse
+    item['title'] = title.text
+AttributeError: 'str' object has no attribute 'text'
+2018-10-30 16:02:38 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1022/10384.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 31, in s_parse
+    item['title'] = title.text
+AttributeError: 'str' object has no attribute 'text'
+2018-10-30 16:02:38 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1023/10389.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 31, in s_parse
+    item['title'] = title.text
+AttributeError: 'str' object has no attribute 'text'
+2018-10-30 16:02:38 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1017/10360.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 31, in s_parse
+    item['title'] = title.text
+AttributeError: 'str' object has no attribute 'text'
+2018-10-30 16:02:38 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1018/10368.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 31, in s_parse
+    item['title'] = title.text
+AttributeError: 'str' object has no attribute 'text'
+2018-10-30 16:02:38 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1019/10378.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 31, in s_parse
+    item['title'] = title.text
+AttributeError: 'str' object has no attribute 'text'
+2018-10-30 16:02:38 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1018/10369.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 31, in s_parse
+    item['title'] = title.text
+AttributeError: 'str' object has no attribute 'text'
+2018-10-30 16:02:38 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1017/10361.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 31, in s_parse
+    item['title'] = title.text
+AttributeError: 'str' object has no attribute 'text'
+2018-10-30 16:02:38 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-10-30 16:02:38 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 3342,
+ 'downloader/request_count': 12,
+ 'downloader/request_method_count/GET': 12,
+ 'downloader/response_bytes': 76609,
+ 'downloader/response_count': 12,
+ 'downloader/response_status_count/200': 12,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 10, 30, 8, 2, 38, 771484),
+ 'log_count/ERROR': 10,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 12,
+ 'scheduler/dequeued': 11,
+ 'scheduler/dequeued/memory': 11,
+ 'scheduler/enqueued': 11,
+ 'scheduler/enqueued/memory': 11,
+ 'spider_exceptions/AttributeError': 10,
+ 'start_time': datetime.datetime(2018, 10, 30, 8, 2, 38, 184570)}
+2018-10-30 16:02:38 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-10-30 16:03:26 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: CountryData)
+2018-10-30 16:03:26 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.7.0, Python 3.7.0 (default, Jun 28 2018, 08:04:48) [MSC v.1912 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2p  14 Aug 2018), cryptography 2.3.1, Platform Windows-7-6.1.7601-SP1
+2018-10-30 16:03:26 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'CountryData', 'FEED_FORMAT': 'json', 'FEED_URI': 'data.json', 'LOG_FILE': 'Spider.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'CountryData.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['CountryData.spiders']}
+2018-10-30 16:03:26 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2018-10-30 16:03:26 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-10-30 16:03:26 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-10-30 16:03:26 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-10-30 16:03:26 [scrapy.core.engine] INFO: Spider opened
+2018-10-30 16:03:26 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-10-30 16:03:26 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1017/10361.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 24, in s_parse
+    content = response.xpath('/html/body/div[4]/div[1]/div/div[3]').extract().text
+AttributeError: 'list' object has no attribute 'text'
+2018-10-30 16:03:26 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1023/10388.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 24, in s_parse
+    content = response.xpath('/html/body/div[4]/div[1]/div/div[3]').extract().text
+AttributeError: 'list' object has no attribute 'text'
+2018-10-30 16:03:26 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1018/10368.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 24, in s_parse
+    content = response.xpath('/html/body/div[4]/div[1]/div/div[3]').extract().text
+AttributeError: 'list' object has no attribute 'text'
+2018-10-30 16:03:26 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1019/10379.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 24, in s_parse
+    content = response.xpath('/html/body/div[4]/div[1]/div/div[3]').extract().text
+AttributeError: 'list' object has no attribute 'text'
+2018-10-30 16:03:26 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1017/10360.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 24, in s_parse
+    content = response.xpath('/html/body/div[4]/div[1]/div/div[3]').extract().text
+AttributeError: 'list' object has no attribute 'text'
+2018-10-30 16:03:26 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1022/10383.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 24, in s_parse
+    content = response.xpath('/html/body/div[4]/div[1]/div/div[3]').extract().text
+AttributeError: 'list' object has no attribute 'text'
+2018-10-30 16:03:27 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1018/10369.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 24, in s_parse
+    content = response.xpath('/html/body/div[4]/div[1]/div/div[3]').extract().text
+AttributeError: 'list' object has no attribute 'text'
+2018-10-30 16:03:27 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1022/10384.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 24, in s_parse
+    content = response.xpath('/html/body/div[4]/div[1]/div/div[3]').extract().text
+AttributeError: 'list' object has no attribute 'text'
+2018-10-30 16:03:27 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1019/10378.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 24, in s_parse
+    content = response.xpath('/html/body/div[4]/div[1]/div/div[3]').extract().text
+AttributeError: 'list' object has no attribute 'text'
+2018-10-30 16:03:27 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1023/10389.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 24, in s_parse
+    content = response.xpath('/html/body/div[4]/div[1]/div/div[3]').extract().text
+AttributeError: 'list' object has no attribute 'text'
+2018-10-30 16:03:27 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-10-30 16:03:27 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 3342,
+ 'downloader/request_count': 12,
+ 'downloader/request_method_count/GET': 12,
+ 'downloader/response_bytes': 76609,
+ 'downloader/response_count': 12,
+ 'downloader/response_status_count/200': 12,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 10, 30, 8, 3, 27, 28320),
+ 'log_count/ERROR': 10,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 12,
+ 'scheduler/dequeued': 11,
+ 'scheduler/dequeued/memory': 11,
+ 'scheduler/enqueued': 11,
+ 'scheduler/enqueued/memory': 11,
+ 'spider_exceptions/AttributeError': 10,
+ 'start_time': datetime.datetime(2018, 10, 30, 8, 3, 26, 429687)}
+2018-10-30 16:03:27 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-10-30 16:06:04 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: CountryData)
+2018-10-30 16:06:04 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.7.0, Python 3.7.0 (default, Jun 28 2018, 08:04:48) [MSC v.1912 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2p  14 Aug 2018), cryptography 2.3.1, Platform Windows-7-6.1.7601-SP1
+2018-10-30 16:06:04 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'CountryData', 'FEED_FORMAT': 'json', 'FEED_URI': 'data.json', 'LOG_FILE': 'Spider.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'CountryData.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['CountryData.spiders']}
+2018-10-30 16:06:04 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2018-10-30 16:06:04 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-10-30 16:06:04 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-10-30 16:06:04 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-10-30 16:06:04 [scrapy.core.engine] INFO: Spider opened
+2018-10-30 16:06:04 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-10-30 16:06:05 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1023/10389.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 24, in s_parse
+    content = response.xpath('/html/body/div[4]/div[1]/div/div[3]/p').extract().text
+AttributeError: 'list' object has no attribute 'text'
+2018-10-30 16:06:05 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1022/10383.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 24, in s_parse
+    content = response.xpath('/html/body/div[4]/div[1]/div/div[3]/p').extract().text
+AttributeError: 'list' object has no attribute 'text'
+2018-10-30 16:06:05 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1023/10388.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 24, in s_parse
+    content = response.xpath('/html/body/div[4]/div[1]/div/div[3]/p').extract().text
+AttributeError: 'list' object has no attribute 'text'
+2018-10-30 16:06:05 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1022/10384.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 24, in s_parse
+    content = response.xpath('/html/body/div[4]/div[1]/div/div[3]/p').extract().text
+AttributeError: 'list' object has no attribute 'text'
+2018-10-30 16:06:05 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1019/10378.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 24, in s_parse
+    content = response.xpath('/html/body/div[4]/div[1]/div/div[3]/p').extract().text
+AttributeError: 'list' object has no attribute 'text'
+2018-10-30 16:06:05 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1019/10379.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 24, in s_parse
+    content = response.xpath('/html/body/div[4]/div[1]/div/div[3]/p').extract().text
+AttributeError: 'list' object has no attribute 'text'
+2018-10-30 16:06:05 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1017/10360.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 24, in s_parse
+    content = response.xpath('/html/body/div[4]/div[1]/div/div[3]/p').extract().text
+AttributeError: 'list' object has no attribute 'text'
+2018-10-30 16:06:05 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1017/10361.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 24, in s_parse
+    content = response.xpath('/html/body/div[4]/div[1]/div/div[3]/p').extract().text
+AttributeError: 'list' object has no attribute 'text'
+2018-10-30 16:06:05 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1018/10369.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 24, in s_parse
+    content = response.xpath('/html/body/div[4]/div[1]/div/div[3]/p').extract().text
+AttributeError: 'list' object has no attribute 'text'
+2018-10-30 16:06:05 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1018/10368.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 24, in s_parse
+    content = response.xpath('/html/body/div[4]/div[1]/div/div[3]/p').extract().text
+AttributeError: 'list' object has no attribute 'text'
+2018-10-30 16:06:05 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-10-30 16:06:05 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 3342,
+ 'downloader/request_count': 12,
+ 'downloader/request_method_count/GET': 12,
+ 'downloader/response_bytes': 76609,
+ 'downloader/response_count': 12,
+ 'downloader/response_status_count/200': 12,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 10, 30, 8, 6, 5, 224609),
+ 'log_count/ERROR': 10,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 12,
+ 'scheduler/dequeued': 11,
+ 'scheduler/dequeued/memory': 11,
+ 'scheduler/enqueued': 11,
+ 'scheduler/enqueued/memory': 11,
+ 'spider_exceptions/AttributeError': 10,
+ 'start_time': datetime.datetime(2018, 10, 30, 8, 6, 4, 603515)}
+2018-10-30 16:06:05 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-10-30 16:06:28 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: CountryData)
+2018-10-30 16:06:28 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.7.0, Python 3.7.0 (default, Jun 28 2018, 08:04:48) [MSC v.1912 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2p  14 Aug 2018), cryptography 2.3.1, Platform Windows-7-6.1.7601-SP1
+2018-10-30 16:06:28 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'CountryData', 'FEED_FORMAT': 'json', 'FEED_URI': 'data.json', 'LOG_FILE': 'Spider.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'CountryData.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['CountryData.spiders']}
+2018-10-30 16:06:28 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2018-10-30 16:06:28 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-10-30 16:06:28 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-10-30 16:06:28 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-10-30 16:06:28 [scrapy.core.engine] INFO: Spider opened
+2018-10-30 16:06:28 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-10-30 16:06:37 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2018-10-30 16:06:37 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2018-10-30 16:06:37 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
+2018-10-30 16:06:37 [scrapy.core.downloader.handlers.http11] WARNING: Got data loss in http://www.offcn.com/xingce/2016/0323/4900.html. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2018-10-30 16:08:28 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: CountryData)
+2018-10-30 16:08:28 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.7.0, Python 3.7.0 (default, Jun 28 2018, 08:04:48) [MSC v.1912 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2p  14 Aug 2018), cryptography 2.3.1, Platform Windows-7-6.1.7601-SP1
+2018-10-30 16:08:28 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'CountryData', 'FEED_FORMAT': 'json', 'FEED_URI': 'data.json', 'LOG_FILE': 'Spider.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'CountryData.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['CountryData.spiders']}
+2018-10-30 16:08:28 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2018-10-30 16:08:29 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-10-30 16:08:29 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-10-30 16:08:29 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-10-30 16:08:29 [scrapy.core.engine] INFO: Spider opened
+2018-10-30 16:08:29 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-10-30 16:08:29 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-10-30 16:08:29 [scrapy.extensions.feedexport] INFO: Stored json feed (10 items) in: data.json
+2018-10-30 16:08:29 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 3342,
+ 'downloader/request_count': 12,
+ 'downloader/request_method_count/GET': 12,
+ 'downloader/response_bytes': 76609,
+ 'downloader/response_count': 12,
+ 'downloader/response_status_count/200': 12,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 10, 30, 8, 8, 29, 687500),
+ 'item_scraped_count': 10,
+ 'log_count/INFO': 8,
+ 'request_depth_max': 1,
+ 'response_received_count': 12,
+ 'scheduler/dequeued': 11,
+ 'scheduler/dequeued/memory': 11,
+ 'scheduler/enqueued': 11,
+ 'scheduler/enqueued/memory': 11,
+ 'start_time': datetime.datetime(2018, 10, 30, 8, 8, 29, 111328)}
+2018-10-30 16:08:29 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-10-30 16:09:17 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: CountryData)
+2018-10-30 16:09:17 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.7.0, Python 3.7.0 (default, Jun 28 2018, 08:04:48) [MSC v.1912 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2p  14 Aug 2018), cryptography 2.3.1, Platform Windows-7-6.1.7601-SP1
+2018-10-30 16:09:17 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'CountryData', 'FEED_FORMAT': 'json', 'FEED_URI': 'data.json', 'LOG_FILE': 'Spider.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'CountryData.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['CountryData.spiders']}
+2018-10-30 16:09:17 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2018-10-30 16:09:17 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-10-30 16:09:17 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-10-30 16:09:17 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-10-30 16:09:17 [scrapy.core.engine] INFO: Spider opened
+2018-10-30 16:09:17 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-10-30 16:09:17 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1017/10361.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 24, in s_parse
+    content = response.xpath('/html/body/div[4]/div[1]/div/div[3]/p').text()
+AttributeError: 'SelectorList' object has no attribute 'text'
+2018-10-30 16:09:17 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1023/10388.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 24, in s_parse
+    content = response.xpath('/html/body/div[4]/div[1]/div/div[3]/p').text()
+AttributeError: 'SelectorList' object has no attribute 'text'
+2018-10-30 16:09:17 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1018/10368.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 24, in s_parse
+    content = response.xpath('/html/body/div[4]/div[1]/div/div[3]/p').text()
+AttributeError: 'SelectorList' object has no attribute 'text'
+2018-10-30 16:09:17 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1019/10378.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 24, in s_parse
+    content = response.xpath('/html/body/div[4]/div[1]/div/div[3]/p').text()
+AttributeError: 'SelectorList' object has no attribute 'text'
+2018-10-30 16:09:17 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1022/10384.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 24, in s_parse
+    content = response.xpath('/html/body/div[4]/div[1]/div/div[3]/p').text()
+AttributeError: 'SelectorList' object has no attribute 'text'
+2018-10-30 16:09:17 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1017/10360.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 24, in s_parse
+    content = response.xpath('/html/body/div[4]/div[1]/div/div[3]/p').text()
+AttributeError: 'SelectorList' object has no attribute 'text'
+2018-10-30 16:09:18 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1019/10379.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 24, in s_parse
+    content = response.xpath('/html/body/div[4]/div[1]/div/div[3]/p').text()
+AttributeError: 'SelectorList' object has no attribute 'text'
+2018-10-30 16:09:18 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1018/10369.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 24, in s_parse
+    content = response.xpath('/html/body/div[4]/div[1]/div/div[3]/p').text()
+AttributeError: 'SelectorList' object has no attribute 'text'
+2018-10-30 16:09:18 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1022/10383.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 24, in s_parse
+    content = response.xpath('/html/body/div[4]/div[1]/div/div[3]/p').text()
+AttributeError: 'SelectorList' object has no attribute 'text'
+2018-10-30 16:09:18 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1023/10389.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 24, in s_parse
+    content = response.xpath('/html/body/div[4]/div[1]/div/div[3]/p').text()
+AttributeError: 'SelectorList' object has no attribute 'text'
+2018-10-30 16:09:18 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-10-30 16:09:18 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 3342,
+ 'downloader/request_count': 12,
+ 'downloader/request_method_count/GET': 12,
+ 'downloader/response_bytes': 76615,
+ 'downloader/response_count': 12,
+ 'downloader/response_status_count/200': 12,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 10, 30, 8, 9, 18, 29296),
+ 'log_count/ERROR': 10,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 12,
+ 'scheduler/dequeued': 11,
+ 'scheduler/dequeued/memory': 11,
+ 'scheduler/enqueued': 11,
+ 'scheduler/enqueued/memory': 11,
+ 'spider_exceptions/AttributeError': 10,
+ 'start_time': datetime.datetime(2018, 10, 30, 8, 9, 17, 467773)}
+2018-10-30 16:09:18 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-10-30 16:12:31 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: CountryData)
+2018-10-30 16:12:31 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.7.0, Python 3.7.0 (default, Jun 28 2018, 08:04:48) [MSC v.1912 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2p  14 Aug 2018), cryptography 2.3.1, Platform Windows-7-6.1.7601-SP1
+2018-10-30 16:12:31 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'CountryData', 'FEED_FORMAT': 'json', 'FEED_URI': 'data.json', 'LOG_FILE': 'Spider.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'CountryData.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['CountryData.spiders']}
+2018-10-30 16:12:31 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2018-10-30 16:12:31 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-10-30 16:12:31 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-10-30 16:12:31 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-10-30 16:12:31 [scrapy.core.engine] INFO: Spider opened
+2018-10-30 16:12:32 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-10-30 16:12:33 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-10-30 16:12:33 [scrapy.extensions.feedexport] INFO: Stored json feed (10 items) in: data.json
+2018-10-30 16:12:33 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 3342,
+ 'downloader/request_count': 12,
+ 'downloader/request_method_count/GET': 12,
+ 'downloader/response_bytes': 76601,
+ 'downloader/response_count': 12,
+ 'downloader/response_status_count/200': 12,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 10, 30, 8, 12, 33, 507812),
+ 'item_scraped_count': 10,
+ 'log_count/INFO': 8,
+ 'request_depth_max': 1,
+ 'response_received_count': 12,
+ 'scheduler/dequeued': 11,
+ 'scheduler/dequeued/memory': 11,
+ 'scheduler/enqueued': 11,
+ 'scheduler/enqueued/memory': 11,
+ 'start_time': datetime.datetime(2018, 10, 30, 8, 12, 32, 5859)}
+2018-10-30 16:12:33 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-10-30 16:18:55 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: CountryData)
+2018-10-30 16:18:55 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.7.0, Python 3.7.0 (default, Jun 28 2018, 08:04:48) [MSC v.1912 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2p  14 Aug 2018), cryptography 2.3.1, Platform Windows-7-6.1.7601-SP1
+2018-10-30 16:18:55 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'CountryData', 'FEED_FORMAT': 'json', 'FEED_URI': 'data.json', 'LOG_FILE': 'Spider.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'CountryData.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['CountryData.spiders']}
+2018-10-30 16:18:55 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2018-10-30 16:18:55 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-10-30 16:18:55 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-10-30 16:18:55 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-10-30 16:18:55 [scrapy.core.engine] INFO: Spider opened
+2018-10-30 16:18:55 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-10-30 16:18:56 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1023/10389.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 35, in s_parse
+    content1 = content.replace('\xa0', '')
+AttributeError: 'list' object has no attribute 'replace'
+2018-10-30 16:18:56 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1022/10383.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 35, in s_parse
+    content1 = content.replace('\xa0', '')
+AttributeError: 'list' object has no attribute 'replace'
+2018-10-30 16:18:56 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1017/10361.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 35, in s_parse
+    content1 = content.replace('\xa0', '')
+AttributeError: 'list' object has no attribute 'replace'
+2018-10-30 16:18:56 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1017/10360.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 35, in s_parse
+    content1 = content.replace('\xa0', '')
+AttributeError: 'list' object has no attribute 'replace'
+2018-10-30 16:18:56 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1019/10378.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 35, in s_parse
+    content1 = content.replace('\xa0', '')
+AttributeError: 'list' object has no attribute 'replace'
+2018-10-30 16:18:56 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1018/10368.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 35, in s_parse
+    content1 = content.replace('\xa0', '')
+AttributeError: 'list' object has no attribute 'replace'
+2018-10-30 16:18:56 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1023/10388.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 35, in s_parse
+    content1 = content.replace('\xa0', '')
+AttributeError: 'list' object has no attribute 'replace'
+2018-10-30 16:18:56 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1022/10384.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 35, in s_parse
+    content1 = content.replace('\xa0', '')
+AttributeError: 'list' object has no attribute 'replace'
+2018-10-30 16:18:56 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1018/10369.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 35, in s_parse
+    content1 = content.replace('\xa0', '')
+AttributeError: 'list' object has no attribute 'replace'
+2018-10-30 16:18:56 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1019/10379.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 35, in s_parse
+    content1 = content.replace('\xa0', '')
+AttributeError: 'list' object has no attribute 'replace'
+2018-10-30 16:18:56 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-10-30 16:18:56 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 3342,
+ 'downloader/request_count': 12,
+ 'downloader/request_method_count/GET': 12,
+ 'downloader/response_bytes': 76557,
+ 'downloader/response_count': 12,
+ 'downloader/response_status_count/200': 12,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 10, 30, 8, 18, 56, 519531),
+ 'log_count/ERROR': 10,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 12,
+ 'scheduler/dequeued': 11,
+ 'scheduler/dequeued/memory': 11,
+ 'scheduler/enqueued': 11,
+ 'scheduler/enqueued/memory': 11,
+ 'spider_exceptions/AttributeError': 10,
+ 'start_time': datetime.datetime(2018, 10, 30, 8, 18, 55, 926757)}
+2018-10-30 16:18:56 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-10-30 16:20:15 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: CountryData)
+2018-10-30 16:20:15 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.7.0, Python 3.7.0 (default, Jun 28 2018, 08:04:48) [MSC v.1912 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2p  14 Aug 2018), cryptography 2.3.1, Platform Windows-7-6.1.7601-SP1
+2018-10-30 16:20:15 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'CountryData', 'FEED_FORMAT': 'json', 'FEED_URI': 'data.json', 'LOG_FILE': 'Spider.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'CountryData.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['CountryData.spiders']}
+2018-10-30 16:20:15 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2018-10-30 16:20:15 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-10-30 16:20:15 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-10-30 16:20:15 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-10-30 16:20:15 [scrapy.core.engine] INFO: Spider opened
+2018-10-30 16:20:15 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-10-30 16:20:16 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1017/10361.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 35, in s_parse
+    content1 = content.replace('&nbsp;', '')
+AttributeError: 'list' object has no attribute 'replace'
+2018-10-30 16:20:16 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1023/10388.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 35, in s_parse
+    content1 = content.replace('&nbsp;', '')
+AttributeError: 'list' object has no attribute 'replace'
+2018-10-30 16:20:16 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1018/10369.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 35, in s_parse
+    content1 = content.replace('&nbsp;', '')
+AttributeError: 'list' object has no attribute 'replace'
+2018-10-30 16:20:16 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1019/10379.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 35, in s_parse
+    content1 = content.replace('&nbsp;', '')
+AttributeError: 'list' object has no attribute 'replace'
+2018-10-30 16:20:16 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1022/10384.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 35, in s_parse
+    content1 = content.replace('&nbsp;', '')
+AttributeError: 'list' object has no attribute 'replace'
+2018-10-30 16:20:16 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1018/10368.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 35, in s_parse
+    content1 = content.replace('&nbsp;', '')
+AttributeError: 'list' object has no attribute 'replace'
+2018-10-30 16:20:16 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1019/10378.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 35, in s_parse
+    content1 = content.replace('&nbsp;', '')
+AttributeError: 'list' object has no attribute 'replace'
+2018-10-30 16:20:16 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1017/10360.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 35, in s_parse
+    content1 = content.replace('&nbsp;', '')
+AttributeError: 'list' object has no attribute 'replace'
+2018-10-30 16:20:16 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1023/10389.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 35, in s_parse
+    content1 = content.replace('&nbsp;', '')
+AttributeError: 'list' object has no attribute 'replace'
+2018-10-30 16:20:16 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1022/10383.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 35, in s_parse
+    content1 = content.replace('&nbsp;', '')
+AttributeError: 'list' object has no attribute 'replace'
+2018-10-30 16:20:16 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-10-30 16:20:16 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 3342,
+ 'downloader/request_count': 12,
+ 'downloader/request_method_count/GET': 12,
+ 'downloader/response_bytes': 76562,
+ 'downloader/response_count': 12,
+ 'downloader/response_status_count/200': 12,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 10, 30, 8, 20, 16, 126953),
+ 'log_count/ERROR': 10,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 12,
+ 'scheduler/dequeued': 11,
+ 'scheduler/dequeued/memory': 11,
+ 'scheduler/enqueued': 11,
+ 'scheduler/enqueued/memory': 11,
+ 'spider_exceptions/AttributeError': 10,
+ 'start_time': datetime.datetime(2018, 10, 30, 8, 20, 15, 551757)}
+2018-10-30 16:20:16 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-10-30 16:28:17 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: CountryData)
+2018-10-30 16:28:17 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.7.0, Python 3.7.0 (default, Jun 28 2018, 08:04:48) [MSC v.1912 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2p  14 Aug 2018), cryptography 2.3.1, Platform Windows-7-6.1.7601-SP1
+2018-10-30 16:28:17 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'CountryData', 'FEED_FORMAT': 'json', 'FEED_URI': 'data.json', 'LOG_FILE': 'Spider.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'CountryData.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['CountryData.spiders']}
+2018-10-30 16:28:17 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2018-10-30 16:28:18 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-10-30 16:28:18 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-10-30 16:28:18 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-10-30 16:28:18 [scrapy.core.engine] INFO: Spider opened
+2018-10-30 16:28:18 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-10-30 16:28:18 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1023/10389.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 35, in s_parse
+    content1 = content.replace('&nbsp;', '')
+AttributeError: 'list' object has no attribute 'replace'
+2018-10-30 16:28:18 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1022/10383.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 35, in s_parse
+    content1 = content.replace('&nbsp;', '')
+AttributeError: 'list' object has no attribute 'replace'
+2018-10-30 16:28:18 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1023/10388.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 35, in s_parse
+    content1 = content.replace('&nbsp;', '')
+AttributeError: 'list' object has no attribute 'replace'
+2018-10-30 16:28:18 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1018/10369.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 35, in s_parse
+    content1 = content.replace('&nbsp;', '')
+AttributeError: 'list' object has no attribute 'replace'
+2018-10-30 16:28:18 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1019/10378.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 35, in s_parse
+    content1 = content.replace('&nbsp;', '')
+AttributeError: 'list' object has no attribute 'replace'
+2018-10-30 16:28:18 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1018/10368.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 35, in s_parse
+    content1 = content.replace('&nbsp;', '')
+AttributeError: 'list' object has no attribute 'replace'
+2018-10-30 16:28:18 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1022/10384.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 35, in s_parse
+    content1 = content.replace('&nbsp;', '')
+AttributeError: 'list' object has no attribute 'replace'
+2018-10-30 16:28:18 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1019/10379.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 35, in s_parse
+    content1 = content.replace('&nbsp;', '')
+AttributeError: 'list' object has no attribute 'replace'
+2018-10-30 16:28:18 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1017/10360.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 35, in s_parse
+    content1 = content.replace('&nbsp;', '')
+AttributeError: 'list' object has no attribute 'replace'
+2018-10-30 16:28:18 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1017/10361.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 35, in s_parse
+    content1 = content.replace('&nbsp;', '')
+AttributeError: 'list' object has no attribute 'replace'
+2018-10-30 16:28:18 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-10-30 16:28:18 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 3342,
+ 'downloader/request_count': 12,
+ 'downloader/request_method_count/GET': 12,
+ 'downloader/response_bytes': 76562,
+ 'downloader/response_count': 12,
+ 'downloader/response_status_count/200': 12,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 10, 30, 8, 28, 18, 742187),
+ 'log_count/ERROR': 10,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 12,
+ 'scheduler/dequeued': 11,
+ 'scheduler/dequeued/memory': 11,
+ 'scheduler/enqueued': 11,
+ 'scheduler/enqueued/memory': 11,
+ 'spider_exceptions/AttributeError': 10,
+ 'start_time': datetime.datetime(2018, 10, 30, 8, 28, 18, 41015)}
+2018-10-30 16:28:18 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-10-30 16:29:51 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: CountryData)
+2018-10-30 16:29:51 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.7.0, Python 3.7.0 (default, Jun 28 2018, 08:04:48) [MSC v.1912 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2p  14 Aug 2018), cryptography 2.3.1, Platform Windows-7-6.1.7601-SP1
+2018-10-30 16:29:51 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'CountryData', 'FEED_FORMAT': 'json', 'FEED_URI': 'data.json', 'LOG_FILE': 'Spider.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'CountryData.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['CountryData.spiders']}
+2018-10-30 16:29:51 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2018-10-30 16:29:52 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-10-30 16:29:52 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-10-30 16:29:52 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-10-30 16:29:52 [scrapy.core.engine] INFO: Spider opened
+2018-10-30 16:29:52 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-10-30 16:29:52 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1017/10361.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 35, in s_parse
+    content1 = content.replace('&nbsp;', '')
+AttributeError: 'list' object has no attribute 'replace'
+2018-10-30 16:29:52 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1018/10369.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 35, in s_parse
+    content1 = content.replace('&nbsp;', '')
+AttributeError: 'list' object has no attribute 'replace'
+2018-10-30 16:29:52 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1018/10368.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 35, in s_parse
+    content1 = content.replace('&nbsp;', '')
+AttributeError: 'list' object has no attribute 'replace'
+2018-10-30 16:29:52 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1023/10388.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 35, in s_parse
+    content1 = content.replace('&nbsp;', '')
+AttributeError: 'list' object has no attribute 'replace'
+2018-10-30 16:29:52 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1022/10384.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 35, in s_parse
+    content1 = content.replace('&nbsp;', '')
+AttributeError: 'list' object has no attribute 'replace'
+2018-10-30 16:29:52 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1022/10383.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 35, in s_parse
+    content1 = content.replace('&nbsp;', '')
+AttributeError: 'list' object has no attribute 'replace'
+2018-10-30 16:29:52 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1019/10379.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 35, in s_parse
+    content1 = content.replace('&nbsp;', '')
+AttributeError: 'list' object has no attribute 'replace'
+2018-10-30 16:29:52 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1019/10378.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 35, in s_parse
+    content1 = content.replace('&nbsp;', '')
+AttributeError: 'list' object has no attribute 'replace'
+2018-10-30 16:29:52 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1017/10360.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 35, in s_parse
+    content1 = content.replace('&nbsp;', '')
+AttributeError: 'list' object has no attribute 'replace'
+2018-10-30 16:29:52 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.offcn.com/xingce/2018/1023/10389.html> (referer: http://www.offcn.com/xingce/mryl/2.html)
+Traceback (most recent call last):
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\programdata\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\workspace\pycharm\spider\CountryData\CountryData\spiders\data.py", line 35, in s_parse
+    content1 = content.replace('&nbsp;', '')
+AttributeError: 'list' object has no attribute 'replace'
+2018-10-30 16:29:52 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-10-30 16:29:52 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 3342,
+ 'downloader/request_count': 12,
+ 'downloader/request_method_count/GET': 12,
+ 'downloader/response_bytes': 76573,
+ 'downloader/response_count': 12,
+ 'downloader/response_status_count/200': 12,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 10, 30, 8, 29, 52, 675781),
+ 'log_count/ERROR': 10,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 12,
+ 'scheduler/dequeued': 11,
+ 'scheduler/dequeued/memory': 11,
+ 'scheduler/enqueued': 11,
+ 'scheduler/enqueued/memory': 11,
+ 'spider_exceptions/AttributeError': 10,
+ 'start_time': datetime.datetime(2018, 10, 30, 8, 29, 52, 119140)}
+2018-10-30 16:29:52 [scrapy.core.engine] INFO: Spider closed (finished)
