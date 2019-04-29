@@ -1,10 +1,11 @@
-import requests
+# -*- coding: utf-8 -*-
+import hsdata
 
-urltest = 'http://data.stats.gov.cn/easyquery.htm?id=zb&dbcode=hgnd&wdcode=zb&m=getTree'
+# 获取卡组数据
+decks = hsdata.HSBoxDeck()
+# 若未找到本地数据，会自动从网络获取
+# print('从炉石盒子获取到', len(decks), '个卡组数据！')
 
-a  = requests.get(urltest).text
-print(a)
 
+print(decks.wins)
 
-
-#最后一次测试
