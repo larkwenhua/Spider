@@ -150,7 +150,7 @@ class gjsj():
 
     def main(self):
 
-        list = [ 'A0201']
+        list = [ 'A01']
 
         a = self.prase_code(list)
         print(a)
